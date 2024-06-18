@@ -80,3 +80,14 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 600px) {
+  .caixa-texto{
+    padding: 25px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
